@@ -130,3 +130,52 @@ Sorry, I could not resist. The options of the plot_covid19_spread() make the imp
 
 
 As the shinyapps.io server has had some issues with exhausting connections, 
+
+pkgdown.yml
+================
+
+template:
+  params:
+    ganalytics: UA-119053376-1
+development:
+  mode: auto
+navbar:
+  type: default
+  left:
+  - icon: fa-home fa-lg
+    href: index.html
+  - text: Reference
+    href: reference/index.html
+  - text: News
+    href: news/index.html
+  right:
+  - text: Code repository
+    icon: fa-github
+    href: https://www.github.com/joachim-gassen/tidycovid19
+
+reference:
+- title: Data functions
+  desc: Functions to download and tidy Covid-19 related data from authorative sources
+  contents:
+  - download_jhu_csse_covid19_data
+  - download_ecdc_covid19_data
+  - download_owid_testing_data
+  - download_acaps_npi_data
+  - download_oxford_npi_data
+  - download_apple_mtr_data
+  - download_google_cmr_data
+  - download_google_trends_data
+  - download_wbank_data
+  - download_merged_data
+- title: Visualization functions
+  desc: Customizable functions to display the spread of Covid-19
+  contents:
+  - plot_covid19_spread
+  - plot_covid19_stripes
+  - map_covid19
+- title: Shiny app
+  desc: App for interactive customization of Covid 19 spread plots
+  contents:
+  - shiny_covid19_spread
+- title: Data sets
+  desc: Dats sets describing the data source and the variables contained in the merged data frame.
