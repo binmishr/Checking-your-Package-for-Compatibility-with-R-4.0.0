@@ -151,7 +151,7 @@ navbar:
   right:
   - text: Code repository
     icon: fa-github
-    href: https://www.github.com/joachim-gassen/tidycovid19
+    
 
 reference:
 - title: Data functions
