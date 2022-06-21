@@ -25,8 +25,6 @@ How to Use the Package
 ========================
 The idea is simple. Load the data using the functions above and code away. So, for example:
 
-# Suggestion by AndreaPi (issue #19)
-
 library(tidyverse)
 library(tidycovid19)
 library(zoo)
